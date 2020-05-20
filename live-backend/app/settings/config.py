@@ -9,7 +9,7 @@ class Config:
 class DevelopmentConfig(Config):
     DEBUG = True
     SQLALCHEMY_ECHO = False
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://<username>:<password>@<ip.address>:<port>/logwin'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://boot.ai:123456789aA@@52.57.27.242:3306/logwin'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
