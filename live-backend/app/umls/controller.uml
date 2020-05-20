@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/!Projects/boot.AI/live_project/live-backend/app/modules/load_planning/controller_load_planning.py</OriginalElement>
+  <nodes>
+    <node x="1349.5" y="664.0">app.modules.common.controller.Controller</node>
+    <node x="1509.0" y="241.0">abc.ABCMeta</node>
+    <node x="2146.0" y="921.0">app.modules.vehicle.controller_vehicle.ControllerVehicle</node>
+    <node x="0.0" y="855.0">app.modules.load_planning.controller_load_planning.ControllerLoadPlanning</node>
+    <node x="924.9999999999999" y="899.0">app.modules.port.controller_port.ControllerPort</node>
+    <node x="1465.0" y="585.0">abc.ABC</node>
+    <node x="1304.0" y="899.0">app.modules.region.controller_region.ControllerRegion</node>
+    <node x="1725.0" y="910.0">app.modules.vessel.controller_vessel.ControllerVessel</node>
+    <node x="1262.0" y="0.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abc.ABC" target="object">
+      <point x="-19.75" y="-14.5" />
+      <point x="1484.75" y="560.0" />
+      <point x="1375.5" y="560.0" />
+      <point x="0.0" y="267.5" />
+    </edge>
+    <edge source="app.modules.load_planning.controller_load_planning.ControllerLoadPlanning" target="app.modules.common.controller.Controller">
+      <point x="0.0" y="-158.5" />
+      <point x="452.5" y="825.0" />
+      <point x="1380.5" y="825.0" />
+      <point x="-124.0" y="70.5" />
+    </edge>
+    <edge source="app.modules.vehicle.controller_vehicle.ControllerVehicle" target="app.modules.common.controller.Controller">
+      <point x="0.0" y="-92.5" />
+      <point x="2357.0" y="825.0" />
+      <point x="1628.5" y="825.0" />
+      <point x="124.0" y="70.5" />
+    </edge>
+    <edge source="app.modules.region.controller_region.ControllerRegion" target="app.modules.common.controller.Controller">
+      <point x="0.0" y="-114.5" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="abc.ABC" target="abc.ABCMeta">
+      <point x="19.75" y="-14.5" />
+      <point x="1524.25" y="560.0" />
+      <point x="1633.5" y="560.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="app.modules.vessel.controller_vessel.ControllerVessel" target="app.modules.common.controller.Controller">
+      <point x="0.0" y="-103.5" />
+      <point x="1925.5" y="835.0" />
+      <point x="1566.5" y="835.0" />
+      <point x="62.0" y="70.5" />
+    </edge>
+    <edge source="app.modules.port.controller_port.ControllerPort" target="app.modules.common.controller.Controller">
+      <point x="0.0" y="-114.5" />
+      <point x="1104.5" y="835.0" />
+      <point x="1442.5" y="835.0" />
+      <point x="-62.0" y="70.5" />
+    </edge>
+    <edge source="app.modules.common.controller.Controller" target="abc.ABC">
+      <point x="0.0" y="-70.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.34847122302158273" x="1102.0" y="465.5909677419355" />
+  <SelectedNodes>
+    <node>app.modules.common.controller.Controller</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+

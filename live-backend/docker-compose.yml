@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  website:
+    build: .
+    command: >
+      gunicorn -b 0.0.0.0:5000
+        --access-logfile -
+        --workers 2
+        --threads 4
+        --timeout 60
+        "app:create_app('prod')"
+    environment:
+      PYTHONUNBUFFERED: 'true'
+      FLASK_DEBUG: '0'
+    volumes:
+      - '.:/app'
+    ports:
+      - '5000:5000'
+
+

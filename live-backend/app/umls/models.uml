@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/!Projects/boot.AI/live_project/live-backend/app/modules/vessel/vessel.py</OriginalElement>
+  <nodes>
+    <node x="548.0" y="147.0">app.modules.load_planning.load_planning.LoadPlanning</node>
+    <node x="625.0" y="0.0">app.modules.common.model.Model</node>
+    <node x="1194.0" y="103.0">app.modules.vehicle.vehicle.Vehicle</node>
+    <node x="962.0" y="334.0">app.modules.port.port.Port</node>
+    <node x="0.0" y="334.0">app.modules.region.region.Region</node>
+    <node x="274.0" y="334.0">app.modules.vessel.vessel.Vessel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="app.modules.vehicle.vehicle.Vehicle" target="app.modules.common.model.Model">
+      <point x="0.0" y="-312.5" />
+      <point x="1331.5" y="73.0" />
+      <point x="841.0" y="73.0" />
+      <point x="96.0" y="26.5" />
+    </edge>
+    <edge source="app.modules.region.region.Region" target="app.modules.common.model.Model">
+      <point x="0.0" y="-81.5" />
+      <point x="127.0" y="73.0" />
+      <point x="649.0" y="73.0" />
+      <point x="-96.0" y="26.5" />
+    </edge>
+    <edge source="app.modules.port.port.Port" target="app.modules.common.model.Model">
+      <point x="0.0" y="-81.5" />
+      <point x="1068.0" y="83.0" />
+      <point x="793.0" y="83.0" />
+      <point x="48.0" y="26.5" />
+    </edge>
+    <edge source="app.modules.load_planning.load_planning.LoadPlanning" target="app.modules.common.model.Model">
+      <point x="0.0" y="-268.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="app.modules.vessel.vessel.Vessel" target="app.modules.common.model.Model">
+      <point x="0.0" y="-81.5" />
+      <point x="401.0" y="83.0" />
+      <point x="697.0" y="83.0" />
+      <point x="-48.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6198791134989926" x="734.5" y="143.5" />
+  <SelectedNodes>
+    <node>app.modules.load_planning.load_planning.LoadPlanning</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+

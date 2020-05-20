@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/!Projects/boot.AI/live_project/live-backend/app/modules/port/dto_port.py</OriginalElement>
+  <nodes>
+    <node x="0.0" y="811.0">app.modules.port.dto_port.DtoPort</node>
+    <node x="770.5" y="241.0">abc.ABCMeta</node>
+    <node x="604.0" y="811.0">app.modules.vehicle.dto_vehicle.DtoVehicle</node>
+    <node x="660.0" y="664.0">app.modules.common.dto.Dto</node>
+    <node x="948.0" y="811.0">app.modules.load_planning.dto_load_planning.DtoLoadPlanning</node>
+    <node x="1411.0" y="811.0">app.modules.region.dto_region.DtoRegion</node>
+    <node x="281.00000000000006" y="811.0">app.modules.vessel.dto_vessel.DtoVessel</node>
+    <node x="726.5" y="585.0">abc.ABC</node>
+    <node x="523.5" y="0.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="app.modules.port.dto_port.DtoPort" target="app.modules.common.dto.Dto">
+      <point x="0.0" y="-48.5" />
+      <point x="130.5" y="781.0" />
+      <point x="681.2" y="781.0" />
+      <point x="-84.79999999999995" y="48.5" />
+    </edge>
+    <edge source="app.modules.vessel.dto_vessel.DtoVessel" target="app.modules.common.dto.Dto">
+      <point x="0.0" y="-48.5" />
+      <point x="432.50000000000006" y="791.0" />
+      <point x="723.6000000000001" y="791.0" />
+      <point x="-42.39999999999998" y="48.5" />
+    </edge>
+    <edge source="abc.ABC" target="object">
+      <point x="-19.75" y="-14.5" />
+      <point x="746.25" y="560.0" />
+      <point x="637.0" y="560.0" />
+      <point x="0.0" y="267.5" />
+    </edge>
+    <edge source="abc.ABC" target="abc.ABCMeta">
+      <point x="19.75" y="-14.5" />
+      <point x="785.75" y="560.0" />
+      <point x="895.0" y="560.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="app.modules.vehicle.dto_vehicle.DtoVehicle" target="app.modules.common.dto.Dto">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="app.modules.load_planning.dto_load_planning.DtoLoadPlanning" target="app.modules.common.dto.Dto">
+      <point x="0.0" y="-48.5" />
+      <point x="1169.5" y="791.0" />
+      <point x="808.4000000000001" y="791.0" />
+      <point x="42.40000000000009" y="48.5" />
+    </edge>
+    <edge source="app.modules.region.dto_region.DtoRegion" target="app.modules.common.dto.Dto">
+      <point x="0.0" y="-48.5" />
+      <point x="1562.5" y="781.0" />
+      <point x="850.8000000000002" y="781.0" />
+      <point x="84.80000000000007" y="48.5" />
+    </edge>
+    <edge source="app.modules.common.dto.Dto" target="abc.ABC">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5469434832756631" x="1022.5690322580645" y="534.6045972163645" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+</Diagram>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#D:/!Projects/boot.AI/live_project/live-backend/app/modules/port/view_port.py</OriginalElement>
+  <nodes>
+    <node x="1856.5" y="103.0">flask_restplus.resource.Resource</node>
+    <node x="1165.0" y="388.0">app.modules.port.view_port.SearchPortByName</node>
+    <node x="2913.0" y="388.0">app.modules.vehicle.view_vehicle.Vehicle</node>
+    <node x="2197.0" y="388.0">app.modules.load_planning.view_load_planning.LoadPlanning</node>
+    <node x="3636.0" y="388.0">app.modules.load_planning.view_load_planning.LoadPlanningSearch</node>
+    <node x="1825.0" y="388.0">app.modules.vehicle.view_vehicle.SearchVehicle</node>
+    <node x="1884.5" y="0.0">flask.views.MethodView</node>
+    <node x="2646.0" y="388.0">app.modules.port.view_port.Port</node>
+    <node x="660.0" y="388.0">app.modules.load_planning.view_load_planning.LoadPlanningTimeline</node>
+    <node x="3243.0" y="388.0">app.modules.vessel.view_vessel.SearchVesselByName</node>
+    <node x="351.0" y="388.0">app.modules.region.view_region.Region</node>
+    <node x="1516.0" y="388.0">app.modules.vessel.view_vessel.Vessel</node>
+    <node x="0.0" y="388.0">app.modules.region.view_region.SearchRegion</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="app.modules.vessel.view_vessel.Vessel" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="1660.5" y="368.0" />
+      <point x="1974.7272727272727" y="368.0" />
+      <point x="-26.272727272727252" y="102.5" />
+    </edge>
+    <edge source="app.modules.port.view_port.SearchPortByName" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="1330.5" y="358.0" />
+      <point x="1948.4545454545455" y="358.0" />
+      <point x="-52.545454545454504" y="102.5" />
+    </edge>
+    <edge source="app.modules.vehicle.view_vehicle.Vehicle" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="3068.0" y="348.0" />
+      <point x="2079.818181818182" y="348.0" />
+      <point x="78.81818181818198" y="102.5" />
+    </edge>
+    <edge source="app.modules.region.view_region.SearchRegion" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="165.5" y="328.0" />
+      <point x="1869.6363636363635" y="328.0" />
+      <point x="-131.3636363636365" y="102.5" />
+    </edge>
+    <edge source="flask_restplus.resource.Resource" target="flask.views.MethodView">
+      <point x="0.0" y="-102.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="app.modules.load_planning.view_load_planning.LoadPlanningTimeline" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="902.5" y="348.0" />
+      <point x="1922.1818181818182" y="348.0" />
+      <point x="-78.81818181818176" y="102.5" />
+    </edge>
+    <edge source="app.modules.region.view_region.Region" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="495.5" y="338.0" />
+      <point x="1895.909090909091" y="338.0" />
+      <point x="-105.09090909090901" y="102.5" />
+    </edge>
+    <edge source="app.modules.vehicle.view_vehicle.SearchVehicle" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="app.modules.port.view_port.Port" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="2769.5" y="358.0" />
+      <point x="2053.5454545454545" y="358.0" />
+      <point x="52.545454545454504" y="102.5" />
+    </edge>
+    <edge source="app.modules.vessel.view_vessel.SearchVesselByName" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="3429.5" y="338.0" />
+      <point x="2106.090909090909" y="338.0" />
+      <point x="105.09090909090901" y="102.5" />
+    </edge>
+    <edge source="app.modules.load_planning.view_load_planning.LoadPlanningSearch" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="3871.5" y="328.0" />
+      <point x="2132.3636363636365" y="328.0" />
+      <point x="131.3636363636365" y="102.5" />
+    </edge>
+    <edge source="app.modules.load_planning.view_load_planning.LoadPlanning" target="flask_restplus.resource.Resource">
+      <point x="0.0" y="-26.5" />
+      <point x="2411.5" y="368.0" />
+      <point x="2027.2727272727275" y="368.0" />
+      <point x="26.27272727272748" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6236491398110007" x="1626.6511390857472" y="261.6491263713449" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+
