@@ -39,7 +39,7 @@ MarkupSafe==1.1.1
 marshmallow==3.3.0
 marshmallow-sqlalchemy==0.21.0
 nltk==3.4.5
-numpy==1.16.4
+numpy==1.22.0
 openapi-spec-validator==0.2.8
 openpyxl==3.0.3
 pandas==0.25.0
